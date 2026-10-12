@@ -58,11 +58,31 @@ nav {
 }
 
 .logo__img {
-  width: 40px;
+  width: 50px;
   margin-top: 8px;
 }
 
 .logo__text {
   font-size: 20px;
   font-weight: 200;
+}
+
+
+
+/* 
+
+HEADER !!!!!!!!!!!!!!!
+
+*/
+
+
+
+header {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
 }
