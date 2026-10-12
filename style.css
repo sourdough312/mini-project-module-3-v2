@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 /* font-family: "Space Mono", monospace; */
 
@@ -36,3 +36,33 @@ h1 {
   font-size: 60px;
 }
 
+/* 
+
+NAV!!!!!!!!!!!!
+
+*/
+
+nav {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 24px 12px;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.logo__img {
+  width: 40px;
+  margin-top: 8px;
+}
+
+.logo__text {
+  font-size: 20px;
+  font-weight: 200;
+}
