@@ -67,15 +67,11 @@ nav {
   font-weight: 200;
 }
 
-
-
 /* 
 
 HEADER !!!!!!!!!!!!!!!
 
 */
-
-
 
 header {
   width: 100%;
@@ -85,4 +81,46 @@ header {
 .row {
   width: 100%;
   max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 8px;
+}
+
+.row__course {
+  border-left: 1px dashed #cbd5e1;
+}
+
+.course {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  margin-left: 40px;
+  gap: 20px;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.course__icon {
+  font-size: 80px;
+}
+
+.course__text {
+  padding: 20px;
+}
+
+.course_selection {
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+  color: #727892;
+  letter-spacing: 0.1px;
+}
+
+
+.course__title {
+  font-weight: 600;
+  font-size: 44px;
+  margin-left: 32px;
+  letter-spacing: 2px;
 }
